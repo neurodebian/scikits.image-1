@@ -11,6 +11,8 @@ def configuration(parent_package='', top_path=None):
     config.add_subpackage('morphology')
     config.add_subpackage('filter')
     config.add_subpackage('transform')
+    config.add_subpackage('draw')
+    config.add_subpackage('feature')
 
     def add_test_directories(arg, dirname, fnames):
         if dirname.split(os.path.sep)[-1] == 'tests':
